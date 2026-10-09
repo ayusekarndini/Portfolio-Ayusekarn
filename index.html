@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayu Sekar Ndini, S.Pd., M.M — Digital Marketing Expert & Professional Speaker</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#090A0F',
+                        cardBg: '#131622',
+                        neonCyan: '#00F0FF',
+                        neonPurple: '#B026FF',
+                        neonPink: '#FF007F'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts & Lucide Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .glass-card {
+            background: rgba(19, 22, 34, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glow-text {
+            text-shadow: 0 0 25px rgba(0, 240, 255, 0.4);
+        }
+        .glow-btn {
+            box-shadow: 0 0 25px rgba(176, 38, 255, 0.4);
+        }
+        .gradient-border {
+            background: linear-gradient(135deg, #00F0FF, #B026FF, #FF007F);
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-neonCyan selection:text-darkBg overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 glass-card border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-lg font-black tracking-wider text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-neonCyan animate-ping"></span>
+                AYU SEKAR NDINI<span class="text-neonCyan">.</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-neonCyan transition">About</a>
+                <a href="#expertise" class="hover:text-neonCyan transition">Expertise</a>
+                <a href="#portfolio" class="hover:text-neonCyan transition">Portfolio</a>
+                <a href="#services" class="hover:text-neonCyan transition">Services</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="#services" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase gradient-border text-white hover:opacity-90 transition glow-btn">
+                    <span>Hire My Services</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-6">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-neonPurple/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-80 h-80 bg-neonCyan/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-neonCyan text-xs font-semibold mb-6 uppercase tracking-widest border border-neonCyan/30">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                <span>Digital Marketing Practitioner, Educator & Speaker</span>
+            </div>
+            
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight">
+                Transforming Brands Through <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink glow-text">Data, Strategy & AI</span>
+            </h1>
+            
+            <p class="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+                Halo! Gua <strong class="text-white">Ayu Sekar Ndini, S.Pd., M.M.</strong> Brand Supervisor, Dosen, dan Professional Speaker dengan pengalaman 6+ tahun meroketkan strategi digital, bisnis ritel, dan ekosistem edukasi[cite: 2, 4].
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-neonCyan to-neonPurple text-darkBg hover:scale-105 transition duration-300 flex items-center justify-center gap-3 glow-btn">
+                    <i data-lucide="folder-git-2" class="w-5 h-5"></i>
+                    <span>Explore Portfolio</span>
+                </a>
+                <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider glass-card text-white hover:border-neonCyan transition duration-300 flex items-center justify-center gap-3">
+                    <i data-lucide="briefcase" class="w-5 h-5 text-neonCyan"></i>
+                    <span>View Services</span>
+                </a>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20 pt-10 border-t border-white/10">
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <h3 class="text-3xl font-black text-neonCyan mb-1">6+</h3>
+                    <p class="text-xs text-gray-400 uppercase tracking-wider">Years Experience</p>[cite: 2]
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <h3 class="text-3xl font-black text-neonPurple mb-1">3.8/4.0</h3>
+                    <p class="text-xs text-gray-400 uppercase tracking-wider">Master of Management</p>[cite: 3]
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <h3 class="text-3xl font-black text-neonPink mb-1">97%</h3>
+                    <p class="text-xs text-gray-400 uppercase tracking-wider">Google AI Essentials</p>[cite: 8]
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <h3 class="text-3xl font-black text-neonCyan mb-1">+204%</h3>
+                    <p class="text-xs text-gray-400 uppercase tracking-wider">Sales Growth Impact</p>[cite: 19]
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 px-6 relative">
+        <div class="max-w-5xl mx-auto glass-card p-8 sm:p-12 rounded-3xl relative overflow-hidden border border-white/10">
+            <div class="absolute -right-20 -bottom-20 w-60 h-60 bg-neonPurple/10 rounded-full blur-2xl"></div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-1">
+                    <div class="relative w-full aspect-square rounded-2xl overflow-hidden border-2 border-neonCyan/40 group">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Ayu Sekar Ndini" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                </div>
+                <div class="md:col-span-2">
+                    <span class="text-xs uppercase tracking-widest text-neonCyan font-bold">Personal Profile</span>
+<div>
+                    <h2 class="text-3xl font-bold mt-2 mb-4">Ayu Sekar Ndini, S.Pd., M.M.</h2>
+</div>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                        Lulusan S2 Magister Manajemen Universitas Bakrie & S1 Universitas Negeri Jakarta[cite: 3]. Bersertifikasi <strong class="text-neonCyan">Google Digital Marketing & E-Commerce</strong> serta <strong class="text-neonPurple">Google AI Essentials</strong>[cite: 2]. Berpengalaman mengelola brand retail besar (Mimori, Kamino, Sukses Jaya, Bloomie, Roche Ornament, Nami)[cite: 4], aktif mengajar sebagai dosen di Politeknik Teknologi Nusantara, serta menjadi mentor profesional di Eduprima, Eduwork, dan Dealls Jobs[cite: 2, 4].
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 text-gray-300">Brand Management</span>
+                        <span class="px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 text-gray-300">Digital Marketing</span>
+                        <span class="px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 text-gray-300">Professional Speaker</span>[cite: 2]
+                        <span class="px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 text-gray-300">AI Enthusiast</span>[cite: 2]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTISE SECTION -->
+    <section id="expertise" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs uppercase tracking-widest text-neonCyan font-bold">What I Do</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Professional Expertise</h2>[cite: 5]
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="glass-card p-8 rounded-2xl hover:border-neonCyan transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonCyan/10 flex items-center justify-center text-neonCyan mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="trending-up" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Digital Marketing & Ads</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Eksekusi Meta Ads, Google Ads, TikTok Ads, SEO, dan optimasi kanal digital berbasis conversion-focused.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl hover:border-neonPurple transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonPurple/10 flex items-center justify-center text-neonPurple mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="store" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Brand & Retail Strategy</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Manajemen end-to-end event toko, visual merchandising, ekspansi konsinyasi, dan aktivasi offline-online terpadu.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl hover:border-neonPink transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonPink/10 flex items-center justify-center text-neonPink mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="mic" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Speaker & Facilitator</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Pembicara utama (Keynote) untuk seminar women empowerment, marketing masterclass, dan voice-over talent workshop[cite: 2, 10].</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl hover:border-neonCyan transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonCyan/10 flex items-center justify-center text-neonCyan mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="users" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Mentor & Career Coach</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Mentoring privat digital marketing, personal branding, dan pengembangan karier profesional di berbagai platform EdTech[cite: 2, 4].</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl hover:border-neonPurple transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonPurple/10 flex items-center justify-center text-neonPurple mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="cpu" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">AI & Analytics</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Pemanfaatan Google AI Essentials dan data analytics untuk mengukur efektivitas kampanye serta efisiensi operasional.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl hover:border-neonPink transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-neonPink/10 flex items-center justify-center text-neonPink mb-6 group-hover:scale-110 transition">
+                    <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Lecturing & Training</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Pengajaran akademis profesional dan pelatihan pengembangan bisnis manajemen untuk mahasiswa dan pekerja[cite: 13, 23].</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO / FEATURED WORKS SECTION -->
+    <section id="portfolio" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs uppercase tracking-widest text-neonCyan font-bold">Track Record</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Featured Projects & Portfolio</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group">
+                <div class="h-48 bg-gradient-to-br from-purple-900/40 to-cyan-900/40 p-6 flex items-end">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-neonCyan/20 text-neonCyan border border-neonCyan/30">Retail Event & Activation</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Mimori & Kamino Expansion</h3>
+                    <p class="text-gray-400 text-sm mb-4">Mengelola promosi sales di Pakuwon Mall Surabaya, ekspansi konsinyasi multi-outlet, dan event bergengsi seperti Jakarta X Beauty (JXB)[cite: 21].</p>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group">
+                <div class="h-48 bg-gradient-to-br from-pink-900/40 to-purple-900/40 p-6 flex items-end">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-neonPink/20 text-neonPink border border-neonPink/30">Sports Marketing & CGI</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Stamina Sports Indonesia</h3>
+                    <p class="text-gray-400 text-sm mb-4">Meroketkan engagement rate hingga 17.77%, peluncuran campaign CGI FOOH, event FunRun 5K, serta pertumbuhan penjualan produk +204%[cite: 19, 20].</p>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group">
+                <div class="h-48 bg-gradient-to-br from-cyan-900/40 to-blue-900/40 p-6 flex items-end">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-neonPurple/20 text-neonPurple border border-neonPurple/30">Event Leadership</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">WWWFEST x Lagoon Avenue Mall</h3>
+                    <p class="text-gray-400 text-sm mb-4">Memimpin kolaborasi event 4 hari bersama PP Properti BUMN yang mendongkrak trafik pengunjung mall hingga 62% (mobil) dan 45% (motor)[cite: 12].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs uppercase tracking-widest text-neonCyan font-bold">Work With Me</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Professional Services</h2>
+            <p class="text-gray-400 text-sm mt-2">Pilih layanan profesional yang siap disesuaikan dengan kebutuhan Anda atau perusahaan.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border border-white/10 hover:border-neonCyan transition">
+                <div>
+                    <div class="text-neonCyan font-bold text-xs uppercase tracking-wider mb-2">Consultancy & Strategy</div>
+                    <h3 class="text-2xl font-black mb-4">Digital Marketing & Brand Strategy</h3>
+                    <p class="text-gray-400 text-sm mb-6">Audit menyeluruh, penyusunan strategi pemasaran, manajemen iklan berbayar (Meta/Google/TikTok Ads), dan optimasi brand presence.</p>
+                </div>
+                <a href="mailto:ayusekarn@gmail.com" class="w-full py-3 rounded-xl bg-white/5 border border-white/10 text-center font-bold text-sm hover:bg-neonCyan hover:text-darkBg transition duration-300">
+                    Pesan Layanan
+                </a>
+            </div>
+            <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border-2 border-neonPurple/50 relative shadow-xl shadow-neonPurple/10">
+                <div class="absolute -top-3 right-8 px-3 py-1 bg-neonPurple text-white text-[10px] font-extrabold rounded-full uppercase tracking-wider">Most Popular</div>
+                <div>
+                    <div class="text-neonPurple font-bold text-xs uppercase tracking-wider mb-2">Speaking & Training</div>
+                    <h3 class="text-2xl font-black mb-4">Keynote Speaker & Workshop Facilitator</h3>
+                    <p class="text-gray-400 text-sm mb-6">Undang sebagai pembicara seminar, talkshow, pelatihan korporat, atau workshop digital marketing & AI essentials[cite: 2].</p>
+                </div>
+                <a href="mailto:ayusekarn@gmail.com" class="w-full py-3 rounded-xl bg-neonPurple text-white text-center font-bold text-sm hover:opacity-90 transition duration-300 glow-btn">
+                    Booking Speaker
+                </a>
+            </div>
+            <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border border-white/10 hover:border-neonPink transition">
+                <div>
+                    <div class="text-neonPink font-bold text-xs uppercase tracking-wider mb-2">Mentorship & Coaching</div>
+                    <h3 class="text-2xl font-black mb-4">1-on-1 Mentoring & Business Training</h3>
+                    <p class="text-gray-400 text-sm mb-6">Sesi privat eksklusif seputar manajemen bisnis, strategi konten, personal branding, hingga pengembangan karier profesional[cite: 2, 4].</p>
+                </div>
+                <a href="mailto:ayusekarn@gmail.com" class="w-full py-3 rounded-xl bg-white/5 border border-white/10 text-center font-bold text-sm hover:bg-neonPink hover:text-darkBg transition duration-300">
+                    Jadwalkan Sesi
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section id="contact" class="py-24 px-6 max-w-4xl mx-auto">
+        <div class="glass-card p-8 sm:p-12 rounded-3xl border border-neonCyan/30 text-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-neonCyan/10 via-neonPurple/10 to-neonPink/10 pointer-events-none"></div>
+            
+            <h2 class="text-3xl sm:text-4xl font-black mb-4">Mari Berkolaborasi untuk Hasil Terbaik!</h2>
+            <p class="text-gray-300 text-sm max-w-xl mx-auto mb-8">
+                Punya proyek digital, butuh pembicara handal, atau ingin konsultasi strategi brand? Hubungi langsung melalui email atau LinkedIn saya.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="mailto:ayusekarn@gmail.com" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider bg-neonCyan text-darkBg hover:scale-105 transition duration-300 flex items-center justify-center gap-2 glow-text font-black">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    <span>ayusekarn@gmail.com</span>[cite: 1]
+                </a>
+                <a href="https://linkedin.com/in/ayu-sekar-ndini/" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider glass-card text-white hover:border-white transition duration-300 flex items-center justify-center gap-2">
+                    <i data-lucide="linkedin" class="w-4 h-4 text-neonCyan"></i>
+                    <span>LinkedIn Profile</span>[cite: 1]
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 px-6 border-t border-white/10 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Ayu Sekar Ndini, S.Pd., M.M. All rights reserved.</p>
+            <div class="flex items-center gap-6">
+                <a href="https://linkedin.com/in/ayu-sekar-ndini/" target="_blank" class="hover:text-neonCyan transition">LinkedIn</a>[cite: 1]
+                <a href="mailto:ayusekarn@gmail.com" class="hover:text-neonCyan transition">Email</a>[cite: 1]
+                <span class="text-gray-600">0812-9930-9941</span>[cite: 1]
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
